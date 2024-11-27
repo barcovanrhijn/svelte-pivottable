@@ -38,7 +38,8 @@
     "sortablejs": "^1.15.0",
     "svelte": "^3.55.1"
   },
-  "main": "dist/index.js","module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
