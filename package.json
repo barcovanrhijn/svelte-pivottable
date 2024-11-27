@@ -17,8 +17,8 @@
     "pivottable"
   ],
   "author": {
-    "name": "Jakub Jagielka",
-    "email": "jjagielka@gmail.com"
+    "name": "Barco van Rhijn",
+    "email": "barcovanrhijn@gmail.com"
   },
   "license": "MIT",
   "bugs": {
@@ -37,5 +37,12 @@
   "dependencies": {
     "sortablejs": "^1.15.0",
     "svelte": "^3.55.1"
+  },
+  "main": "dist/index.js","module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
   }
 }
